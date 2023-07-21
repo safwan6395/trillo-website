@@ -12,11 +12,12 @@ Trillo is a fictional website where users can book flights, rent hotel rooms, re
 
 1. Clone the repository to your local machine.
 2. Install the dependencies by running `npm install`.
-3. Run the project by running `npm start`.
+3. Build the CSS by running `npm run build`.
+4. Open up the index.html file
 
 ## Usage
 
-The website will be hosted on `localhost:3000`. You can navigate to the website in your browser to view the layout.
+The website will be hosted on `localhost:<port-no>`. You can navigate to the website in your browser to view the layout.
 
 ## To-Do
 
