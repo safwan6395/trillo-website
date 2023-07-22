@@ -42,8 +42,8 @@ Grey dark 3: #999
 }
 
 html {
-  box-sizing: border-box;
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -57,5 +57,4 @@ body {
     var(--color-primary-dark)
   );
   background-repeat: no-repeat;
-
 }

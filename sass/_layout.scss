@@ -6,9 +6,15 @@
 }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
+  // padding: 1rem 2rem;
   background-color: #fff;
   border-bottom: 1px soid var(--color-grey-light-2);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
