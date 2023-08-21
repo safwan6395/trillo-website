@@ -32,9 +32,15 @@ Grey dark 3: #999
 
   --shadow-lg: 0 2rem 6rem rgba(0, 0, 0, 0.3);
   --shadow-sm: 0 2rem 5rem rgba(0, 0, 0, 0.06);
-  
-  --line: 1px solid var(--color-grey-light-2)
+
+  --line: 1px solid var(--color-grey-light-2);
 }
+
+$bp-largest: 75em;      // 1200
+$bp-large: 68.75em;     // 1100
+$bp-medium: 56.25em;    // 900
+$bp-small: 37.5em;      // 600
+$bp-smallest: 31.25em;  // 500
 
 *,
 *::after,
@@ -47,6 +53,14 @@ Grey dark 3: #999
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 37.5%;
+  }
 }
 
 body {
